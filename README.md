@@ -1,62 +1,50 @@
- 🤖 AI Engineer – Assignment
-📌 Objective
+# 🤖 AI Engineer – Assignment
 
-Develop a simple AI pipeline using LangChain, LangGraph, and LangSmith to demonstrate an understanding of embeddings, vector databases, Retrieval-Augmented Generation (RAG), and clean coding practices.
+## 📌 Objective
+Develop a simple AI pipeline using **LangChain**, **LangGraph**, and **LangSmith** to demonstrate an understanding of embeddings, vector databases, Retrieval-Augmented Generation (RAG), and clean coding practices.
 
-📋 Assignment Requirements
+---
 
+## 📋 Assignment Requirements
 The candidate must:
 
-Use LangGraph to implement an agentic pipeline with two functionalities:
+- Use **LangGraph** to implement an agentic pipeline with two functionalities:  
+  - Fetch real-time weather data using the **OpenWeatherMap API**.  
+  - Answer questions from a **PDF document** using RAG (Retrieval-Augmented Generation).  
+- Implement a **LangGraph node** that decides whether to call the weather API or fetch information from the PDF.  
+- Process the fetched data using a **Large Language Model (LLM)** via LangChain.  
+- Generate embeddings for the processed data and store them in a **vector database (Qdrant)**.  
+- Implement a **RAG-based query mechanism** to retrieve and summarize stored information.  
+- Evaluate the LLM’s response using **LangSmith**.  
+- Write **test cases** for API handling, LLM processing, and retrieval logic while maintaining clean, modular code.  
+- Create a **UI interface** using Streamlit to demonstrate the application using a simple chat interface.  
 
-Fetch real-time weather data using the OpenWeatherMap API.
+---
 
-Answer questions from a PDF document using RAG (Retrieval-Augmented Generation).
+## 📦 Deliverables
+- 🐍 Python code in a GitHub repository  
+- 📄 README.md with setup instructions and implementation details  
+- 📊 LangSmith logs/screenshots showcasing LLM response evaluation  
+- 🧪 Test results from unit tests  
+- 💻 Streamlit UI demo  
+- 🎥 Loom video explaining LangSmith results and the code  
 
-Implement a LangGraph node that decides whether to call the weather API or fetch information from the PDF.
+---
 
-Process the fetched data using a Large Language Model (LLM) via LangChain.
+## 📝 Evaluation Criteria
+- ✔ Correct integration of **LangGraph** and **LangChain**  
+- ✔ Proper decision-making within LangGraph nodes  
+- ✔ Working vector database storage and retrieval  
+- ✔ Effective LangSmith evaluation  
+- ✔ Clean, well-structured, and well-tested code  
+- ✔ Functional and user-friendly **Streamlit UI**  
 
-Generate embeddings for the processed data and store them in a vector database (Qdrant).
+---
 
-Implement a RAG-based query mechanism to retrieve and summarize stored information.
+## ⚙️ Setup Instructions
 
-Evaluate the LLM’s response using LangSmith.
-
-Write test cases for API handling, LLM processing, and retrieval logic while maintaining clean, modular code.
-
-Create a UI interface using Streamlit to demonstrate the application using a simple chat interface.
-
-📦 Deliverables
-
-🐍 Python code in a GitHub repository
-
-📄 README.md with setup instructions and implementation details
-
-📊 LangSmith logs/screenshots showcasing LLM response evaluation
-
-🧪 Test results from unit tests
-
-💻 Streamlit UI demo
-
-🎥 Loom video explaining LangSmith results and the code
-
-📝 Evaluation Criteria
-
-✔ Correct integration of LangGraph and LangChain
-
-✔ Proper decision-making within LangGraph nodes
-
-✔ Working vector database storage and retrieval
-
-✔ Effective LangSmith evaluation
-
-✔ Clean, well-structured, and well-tested code
-
-✔ Functional and user-friendly Streamlit UI
-
-⚙️ Setup Instructions
-1️⃣ Clone Repository
+### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/your-username/ai-pipeline-assignment.git
 cd ai-pipeline-assignment
 
@@ -112,7 +100,6 @@ Output:
 
 🌦️ The current temperature in Delhi, IN is 24.74°C with overcast clouds.
 
-
 2. PDF Query Run
 
 Input:
@@ -124,8 +111,6 @@ Output:
 
 AI Task  
 Deliverables include Python code in GitHub, README.md, LangSmith logs/screenshots, test results, Streamlit demo, and Loom video.
-
-
 
 🗂️ Project Structure
 ai_pipeline_assignment/
@@ -146,9 +131,9 @@ ai_pipeline_assignment/
 │── docs/                 # Screenshots (LangSmith logs)
 │   ├── langsmith_weather.png
 │   └── langsmith_pdf.png
-│── .env                  # API keys (not pushed to GitHub)
+│── .env                  # API keys 
 │── requirements.txt
 │── README.md
 
 
-✨ Thank You! 
+✨ Thank You!
