@@ -1,4 +1,4 @@
-# 🤖 AI  Pipeline
+# 🤖 AI Agent: Weather + PDF Q&A
 
 ## 📌 Objective
 Develop a simple AI pipeline using **LangChain**, **LangGraph**, and **LangSmith** to demonstrate an understanding of embeddings, vector databases, Retrieval-Augmented Generation (RAG), and clean coding practices.
