@@ -1,0 +1,11 @@
+langchain
+langgraph
+qdrant-client
+sentence-transformers
+transformers
+torch
+streamlit
+pypdf
+pytest
+python-dotenv
+requests
