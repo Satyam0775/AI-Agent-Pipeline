@@ -1,0 +1,11 @@
+# Weather
+OPENWEATHERMAP_API_KEY=your_openweather_key_here
+
+# HuggingFace
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_key_here
+
+# LangSmith
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=ls__xxxxxxxxxxxxxxxxxxxx
+LANGSMITH_PROJECT=AI_Agent_Assignment
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
